@@ -1,0 +1,69 @@
+{
+	"id": "SplunkPy",
+	"version": -1,
+	"modified": "2019-04-14T20:06:24.363790113Z",
+	"commitMessage": "Demisto content update 19.4.0",
+	"shouldPublish": true,
+	"shouldCommit": true,
+	"shouldPush": false,
+	"defaultIncidentType": "",
+	"instanceId": "",
+	"mapping": {
+		"Access": {
+			"internalMapping": {
+				"App": {
+					"simple": "app",
+					"complex": null
+				},
+				"Dest": {
+					"simple": "dest",
+					"complex": null
+				},
+				"Dest NT Domain": {
+					"simple": "dest_pci_domain",
+					"complex": null
+				},
+				"Src": {
+					"simple": "src",
+					"complex": null
+				},
+				"Src NT Domain": {
+					"simple": "src_pci_domain",
+					"complex": null
+				}
+			},
+			"dontMapEventToLabels": false
+		},
+		"Malware": {
+			"internalMapping": {
+				"Dest": {
+					"simple": "dest",
+					"complex": null
+				},
+				"Signature": {
+					"simple": "signature",
+					"complex": null
+				}
+			},
+			"dontMapEventToLabels": false
+		}
+	},
+	"unclassifiedCases": null,
+	"incidentSamples": null,
+	"custom": false,
+	"isDefault": true,
+	"transformer": {
+		"simple": "source",
+		"complex": null
+	},
+	"keyTypeMap": {
+		"Access - Brute Force Access Behavior Detected - Rule": "Access",
+		"Access - Brute Force Access Behavior Detected Over 1d - Rule": "Access",
+		"Access - Concurrent App Accesses - Rule": "Access",
+		"Access - Excessive Failed Logins - Rule": "Access",
+		"Access - High or Critical Priority Individual Logging into Infected Machine - Rule": "Access",
+		"Endpoint - High Or Critical Priority Host With Malware - Rule": "Malware"
+	},
+	"brandName": "SplunkPy",
+	"instanceName": ""
+}

@@ -1,10 +1,10 @@
 {
 	"id": "Gmail",
 	"version": -1,
-	"modified": "2019-04-14T15:48:54.816782534Z",
+	"modified": "2019-04-14T20:06:24.368813583Z",
 	"commitMessage": "Demisto content update 19.4.0",
 	"shouldPublish": true,
-	"shouldCommit": false,
+	"shouldCommit": true,
 	"shouldPush": false,
 	"defaultIncidentType": "",
 	"instanceId": "",
