@@ -1,6 +1,6 @@
 commonfields:
   id: ADGetUser
-  version: 4
+  version: -1
 name: ADGetUser
 script: |-
   import re
@@ -189,8 +189,6 @@ script: |-
   else:
       resp = listAll(attrs, demisto.get(demisto.args(),'using'), userAccountControlOut)
 
-  # this is just a comment
-
   if isError(resp):
       demisto.results(resp)
   else:
@@ -232,6 +230,7 @@ comment: |-
   Use Active Directory to retrieve detailed information about a user account. The user can be specified by name, email or as an Active Directory Distinguished Name (DN).
   If no filter is provided, the result will show all users.
 enabled: true
+system: true
 args:
 - name: dn
   default: true
@@ -311,4 +310,3 @@ dependson:
   must:
   - ad-search
 runonce: false
-runas: DBotWeakRole
