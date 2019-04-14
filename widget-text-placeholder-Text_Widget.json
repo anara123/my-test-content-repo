@@ -1,0 +1,34 @@
+{
+	"id": "text-placeholder",
+	"version": -1,
+	"modified": "2019-04-14T20:06:24.231580272Z",
+	"commitMessage": "Demisto content update 19.4.0",
+	"shouldPublish": true,
+	"shouldCommit": true,
+	"shouldPush": false,
+	"name": "Text Widget",
+	"prevName": "Text Widget",
+	"dataType": "incidents",
+	"widgetType": "text",
+	"query": "",
+	"sort": null,
+	"isPredefined": true,
+	"dateRange": {
+		"fromDate": "0001-01-01T00:00:00Z",
+		"toDate": "0001-01-01T00:00:00Z",
+		"period": {
+			"by": "",
+			"byTo": "",
+			"byFrom": "days",
+			"toValue": null,
+			"fromValue": null,
+			"field": ""
+		},
+		"fromDateLicense": "0001-01-01T00:00:00Z"
+	},
+	"params": {
+		"text": "Place your text here.."
+	},
+	"size": 0,
+	"category": "utility"
+}
