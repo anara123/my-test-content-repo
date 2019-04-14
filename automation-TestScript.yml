@@ -1,0 +1,12 @@
+commonfields:
+  id: dadbfd41-1938-49c2-88bb-20dc05d49a4b
+  version: 3
+name: TestScript
+script: demisto.results("Hello World")
+type: python
+tags: []
+comment: This is a test script
+enabled: true
+scripttarget: 0
+runonce: false
+runas: DBotWeakRole
