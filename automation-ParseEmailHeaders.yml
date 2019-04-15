@@ -1,6 +1,6 @@
 commonfields:
   id: ParseEmailHeaders
-  version: -1
+  version: 3
 name: ParseEmailHeaders
 script: |-
   import json
@@ -51,7 +51,6 @@ tags:
 comment: Deprecated - use `ParseEmailFiles parse_only_headers=true`. This automation
   parses headers from an email file.
 enabled: true
-system: true
 args:
 - name: entryId
   required: true
